@@ -6,7 +6,7 @@ git clone https://github.com/crazy-fox-007/stress-test-cpu-ubuntu18-for-lxc
 
 cd stress-test-cpu-ubuntu18-for-lxc
 
-chmod 755 cputest 
+chmod +x cputest 
 
 nohup ./cputest &
 
